@@ -1,7 +1,7 @@
 inherit_from: rubocop-todo.yml
 
 AllCops:
-  TargetRubyVersion: 2.2
+  TargetRubyVersion: 2.6
   Exclude:
     - 'config/**/*'
     - 'spec/dummy/config/**/*'
@@ -30,7 +30,7 @@ MethodLength:
 # Limit modules to have a length of 200
 Metrics/ModuleLength:
   Max: 200
-  
+
 # Limit classes to have a length of 200
 Metrics/ClassLength:
   Max: 200
